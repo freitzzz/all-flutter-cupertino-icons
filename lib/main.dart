@@ -63,7 +63,12 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: ListView(
-          children: icons
+          children: List.unmodifiable(
+            icons
+              ..sort(
+                (i1, i2) => i1.identifier.compareTo(i2.identifier),
+              ),
+          )
               .map(
                 (iconModel) => Column(
                   children: <Widget>[
