@@ -11,7 +11,7 @@ const RESOURCES = {
 "assets/LICENSE": "0000d255865246c9b55862d96ffd3089",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"main.dart.js": "cf35e801786b3ca40e0178b827f40c98"
+"main.dart.js": "ab4c13eb6e0c9b2ff39b7bdb51315144"
 };
 
 self.addEventListener('activate', function (event) {
