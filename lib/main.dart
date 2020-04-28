@@ -72,13 +72,19 @@ class _MyHomePageState extends State<MyHomePage> {
               .map(
                 (iconModel) => Column(
                   children: <Widget>[
-                    Text(
-                      iconModel.identifier,
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
+                    Padding(
+                      padding: EdgeInsets.only(top: 16.0),
+                      child: Text(
+                        iconModel.identifier,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
                     ),
-                    Icon(iconModel.data),
+                    Padding(
+                      padding: EdgeInsets.only(top: 8.0),
+                      child: Icon(iconModel.data),
+                    ),
                   ],
                 ),
               )
