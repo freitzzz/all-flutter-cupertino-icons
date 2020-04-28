@@ -22673,7 +22673,7 @@ $iu:1}
 P.B7.prototype={}
 P.B8.prototype={}
 F.v_.prototype={
-K:function(a){return new S.ny(new F.nN("All Cupertino Icons",null),"Flutter Demo",X.U5(null,C.kO),null)}}
+K:function(a){return new S.ny(new F.nN("All Cupertino Icons",null),"Flutter Cupertino icons",X.U5(null,C.kO),null)}}
 F.nN.prototype={
 aP:function(){return new F.zU(C.p)}}
 F.zU.prototype={
