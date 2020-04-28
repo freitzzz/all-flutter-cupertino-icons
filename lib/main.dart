@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Cupertino icons',
+      title: 'Flutter Cupertino Icons',
       theme: ThemeData(
         // This is the theme of your application.
         //
